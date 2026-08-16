@@ -1,0 +1,2 @@
+{"video_path":"${WORKDIR}/datasets/targets/example_001.mp4","caption":"Replace with an accurate, non-empty description of the target video."}
+{"video_path":"${WORKDIR}/datasets/targets/example_002.mp4","caption":"Replace with an accurate, non-empty description of the target video."}
