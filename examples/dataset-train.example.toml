@@ -1,0 +1,13 @@
+[general]
+resolution = [768, 1344]
+batch_size = 1
+enable_bucket = true
+bucket_no_upscale = true
+
+[[datasets]]
+video_jsonl_file = "${WORKDIR}/datasets/train.jsonl"
+cache_directory = "${WORKDIR}/datasets/cache/train"
+target_frames = [73]
+frame_extraction = "head"
+source_fps = 24.0
+num_repeats = 1
